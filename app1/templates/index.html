@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Library</title>
+	</head>
+	<body>
+		<p>Choose a task:</p>
+		<ul>
+			<li><a href="http://d3131bb10609.ngrok.io/task3_index.html">Task 3</a></li>
+			<li><a href="http://d3131bb10609.ngrok.io/task4_index.html">Task 4</a></li>
+			<li><a href="http://d3131bb10609.ngrok.io/task5_index.html">Task 5</a></li>
+		</ul>
+		<h3>Tables</h3>
+		{% for item in raw0 %}		
+		<p>{{ item }}</p>
+		{% endfor%}
+		<h3>books table</h3>
+		{% for item in raw1 %}		
+		<p>{{ item }}</p>
+		{% endfor%}
+		<h3>readers table</h3>
+		{% for item in raw2 %}		
+		<p>{{ item }}</p>
+		{% endfor%}
+		<h3>given_books table</h3>
+		{% for item in raw3 %}		
+		<p>{{ item }}</p>
+		{% endfor%}
+	</body>
+</html>
